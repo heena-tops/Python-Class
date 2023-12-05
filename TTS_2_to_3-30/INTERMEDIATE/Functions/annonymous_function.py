@@ -6,7 +6,7 @@
     Lambda function can accept multiple arguments but can return single
     expression
 
-     we can user lambda keuyword to declare this function
+    we can user lambda keuyword to declare this function
 
     Syntax :
 
