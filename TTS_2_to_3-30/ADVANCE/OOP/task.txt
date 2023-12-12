@@ -1,0 +1,14 @@
+task : use operator overloading concept
+
+class A:
+	pass
+
+
+o1(12,3)
+o2(12,3)
+
+check that two instance are having idetical 
+values or not ?
+
+if both instance of class A having same value then return True
+else return False
