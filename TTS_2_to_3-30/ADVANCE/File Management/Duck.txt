@@ -1,0 +1,7 @@
+Returns an exception group. that contains only the exceptions from the current group that match condition, or None if the result is empty.
+
+The condition can be either a function that accepts an exception and returns true for those that should be in the subgroup, or it can be an exception type or a tuple of exception types, which is used to check for a match using the same check that is used in an except clause.
+
+The nesting structure of the current exception is preserved in the result, as are the values of its message, __traceback__, __cause__, __context__ and __notes__ fields. Empty nested groups are omitted from the result.
+
+The condition is checked for all exceptions in the nested exception group, including the top-level and any nested exception groups. If the condition is true for such an exception group, it is included in the result in full.
